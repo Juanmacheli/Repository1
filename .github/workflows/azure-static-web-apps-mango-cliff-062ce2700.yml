@@ -24,7 +24,7 @@ jobs:
           lfs: false
       - name: Build And Deploy
         id: builddeploy
-        uses: Azure/static-web-apps-deploy@v0.0.1-preview with:
+        uses: Azure/static-web-apps-deploy@v1-preview with:
           azure_static_web_apps_api_token: ${{ secrets.. TOKEN}}
           repo_token:${{ secrets.GITHUB_TOKEN}} # used for Github integrations
   (i.e. PR Comments)
